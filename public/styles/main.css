@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(1, 24, 24);
+}
+
+.main-container {
+    position: relative;
+    background: url("/images/background.gif") no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 80vh; /* Adjust the height as needed */
+    border: 3px solid black;
+
+}
+
+h2 {
+    color: white;
+    font-weight: bold;
+}
+
+.right-side {
+
+    background-image: linear-gradient(to left, rgba(119, 116, 116, 0.075) 10%, rgba(0, 0, 0, 1) 80%),url("/images/Jeddah1.jpg");
+   
+    background-size: cover;
+    background-position: center;
+opacity: 80%    ;
+
+}
+
+
+.seconed-container {
+    width: 100%;
+}
+
+#get {
+    width: 80px;
+    height: 50px;
+    background-color: none;
+    border: none;
+}
+
+
+
+.city-details {
+   color: white;
+}
+
+.city-details-box {
+    padding: 5px;
+    border: 1px solid white;
+}
