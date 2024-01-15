@@ -79,6 +79,7 @@ app.get("/", async (req, res) => {
     //make req to API with citiesLocation[0].lon and citiesLocation[0].lat
     try {
         const result = await axios.get(getURL(0));
+        //comment
         console.log(result);
         res.render("index.ejs", {
             temp: result.data.main.temp + " ْC",
